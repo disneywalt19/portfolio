@@ -50,3 +50,47 @@ body {
   margin-bottom: 30px;
 }
 
+a:hover {
+  display: inline-block;
+  position: relative;
+  -webkit-animation: bounce 0.5s linear;
+  animation: bounce 0.5s linear;
+  color: 0;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -0.2em;
+  }
+
+  70% {
+    top: -0.3em;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -0.2em;
+  }
+
+  70% {
+    top: -0.3em;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+

@@ -38,31 +38,26 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <p class="animated bounce">C O U R S E S &nbsp;&nbsp;F I N I S H E D</p>
+                    <p class="animated flash">C O U R S E S &nbsp;&nbsp;F I N I S H E D</p>
                 </div>
 
                 <div class="links">
                     
-                    <i class="fas fa-house-damage"></i>
-                    <a href="http://localhost/home">Home</a>
+                    <a href="http://localhost/home"><i class="fas fa-house-damage flash"></i>Home</a>
                     
-                    <i class="fas fa-project-diagram"></i>
-                    <a href="http://localhost/projects">Projects</a>
                     
-                    <i class="fas fa-certificate"></i>
-                    <a href="http://localhost/certificates">Certificates</a>
+                    <a href="http://localhost/projects"><i class="fas fa-project-diagram flash"></i>Projects</a>
                     
-                    <i class="fas fa-eject"></i>
-                    <a href="http://localhost/about">About Me</a>
                     
-                    <i class="fas fa-file-signature"></i>
-                    <a href="http://localhost/contact">Contact Me</a>
+                    <a href="http://localhost/certificates"><i class="fas fa-certificate flash"></i>Certificates</a>
                     
-                    <i class="fab fa-leanpub"></i>
-                    <a href="http://localhost/courses">Courses Finished</a>
+                    <a href="http://localhost/about"><i class="fas fa-eject flash"></i>About Me</a>
                     
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/disneywalt19">My GitHub</a>
+                    <a href="http://localhost/contact"><i class="fas fa-file-signature flash"></i>Contact Me</a>
+                    
+                    <a href="http://localhost/courses"><i class="fab fa-leanpub flash"></i>Courses Finished</a>
+                    
+                    <a href="https://github.com/disneywalt19"><i class="fab fa-github flash"></i>My GitHub</a>
                 </div>
             </div>
         </div>
