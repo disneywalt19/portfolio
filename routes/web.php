@@ -27,4 +27,6 @@ Route::get('/contact', 'ContactController@index');
 
 Route::get('/courses', 'CoursesController@index');
 
+Route::get('/skills', 'SkillsController@index');
+
 

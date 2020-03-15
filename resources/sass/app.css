@@ -1,7 +1,7 @@
 html, body {
   background-image: url("../../public/img/cables1.jpg");
+  font-family: 'Libre Baskerville', serif;
   color: #fff;
-  font-family: 'Nunito', sans-serif;
   font-weight: 200;
   height: 100vh;
   margin: 0; }
@@ -26,11 +26,11 @@ html, body {
   text-align: center; }
 
 .title {
-  font-size: 84px; }
+  font-size: 70px; }
 
 .links > a {
   color: #73C3EB;
-  padding: 0 25px;
+  padding: 0 10px;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: .1rem;
@@ -40,6 +40,10 @@ html, body {
 .m-b-md {
   margin-bottom: 30px; }
 
+.flash {
+  padding-left: 10px; }
+
+/* ICONS ANIMATE */
 a:hover {
   display: inline-block;
   position: relative;

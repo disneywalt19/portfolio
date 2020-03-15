@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>PORTFOLIO</title>
-        <link href="{{asset('css/app.css')}}" rel="stylesheet">
-        
-        <!-- Font Awesome -->
-       <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-mutate-approach="sync"></script>
-        
-        <!--FontAwesome -->
-        <link href="../../../public/css/app.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
-        
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        
-    </head>
-    <body>
+@include('layouts.header')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -57,9 +35,23 @@
                     
                     <a href="http://localhost/courses"><i class="fab fa-leanpub flash"></i>Courses Finished</a>
                     
+                    <a href="http://localhost/skills"><i class="fab fa-leanpub flash"></i>My Skills</a>
+                    
                     <a href="https://github.com/disneywalt19"><i class="fab fa-github flash"></i>My GitHub</a>
                     
                 </div>
+                
+                <div class="description">
+                <br>
+                This is The Home Page:
+                <br>
+                <br>
+                <p class="bounceInUp desc">
+                    This is my first project fully done in Laravel framework, containing informations about me, my finished courses, my certifications and projects.
+                </p>
+                
+                </div>
+                
             </div>
         </div>
     </body>

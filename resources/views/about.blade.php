@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>PORTFOLIO</title>
-        
-        <link href="{{asset('css/app.css')}}" rel="stylesheet">
-        
-        <!-- Font Awesome -->
-       <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-mutate-approach="sync"></script>
-        
-        <!--FontAwesome -->
-        <link href="../../../public/css/app.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
-        
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        
-    </head>
-    <body>
+@include('layouts.header')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -57,8 +35,25 @@
                     
                     <a href="http://localhost/courses"><i class="fab fa-leanpub flash"></i>Courses Finished</a>
                     
+                    <a href="http://localhost/skills"><i class="fab fa-leanpub flash"></i>My Skills</a>
+                    
                     <a href="https://github.com/disneywalt19"><i class="fab fa-github flash"></i>My GitHub</a>
                 </div>
+            
+            <div class="description">
+                <br>
+                This is The About Me page:
+                <br>
+                <br>
+                Hello, 
+My name is Łukasz Rutkowski. Since ever my dream is working in IT. I have always been fascinated by computer technologies, software and hardware. 
+I have skills in variety of systems like Linux or Windows. Nowadays I decided to expand my skills in programming field, I know the basics of PHP, PHP OOP, MYSQL , HTML, CSS, JavaScript, JSON, JQUERY, BOOTSTRAP, FONTAWESOME, GIT, GITHUB,  and still gainning new knowledge about it. All my free time i spend to learn more to have more information about programming and to be one of the best web developers. I have finish a lot of courses from udemy (have a lot of certificates and spend many hours to make it. I can prove this by showing You my real making by my own projects. Also i was learning by programmist who has a lot of experience in working in many companies.
+I have graduated from informatic school "Computer networks". 
+Being hired at yours company would be part of making my dream come true and works in the field I am so excited about. I am fully devoted and open for any trainning that is neccessary to improve my skills. 
+I am higlhy reliable person, ready to work at any time. Choosing me for this position I can assure you will choose the worker who will with satisfaction and full commitment fulfill the duties.
+                         
+                </div>
+                
             </div>
         </div>
     </body>
