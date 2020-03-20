@@ -1,0 +1,101 @@
+/* CSS Document */
+html, body {
+  background-image: url("../../public/img/cables1.jpg");
+  font-family: 'Libre Baskerville', serif;
+  color: #73C3EB;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0; }
+
+.full-height {
+  height: 100vh; }
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+.position-ref {
+  position: relative; }
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px; }
+
+.content {
+  text-align: center; }
+
+.title {
+  font-size: 70px; }
+
+.links > a {
+  color: #73C3EB;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.m-b-md {
+  margin-bottom: 30px; }
+
+.flash {
+  padding-left: 10px; }
+
+/* ICONS ANIMATE */
+a:hover {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s linear;
+  -o-animation: bounce 0.5s linear;
+  -webkit-animation: bounce 0.5s linear;
+  animation: bounce 0.5s linear;
+  color: 000; }
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0; }
+  50% {
+    top: -0.2em; }
+  70% {
+    top: -0.3em; }
+  100% {
+    top: 0; } }
+@-moz-keyframes bounce {
+  0% {
+    top: 0; }
+  50% {
+    top: -0.2em; }
+  70% {
+    top: -0.3em; }
+  100% {
+    top: 0; } }
+@-o-keyframes bounce {
+  0% {
+    top: 0; }
+  50% {
+    top: -0.2em; }
+  70% {
+    top: -0.3em; }
+  100% {
+    top: 0; } }
+@-ms-keyframes bounce {
+  0% {
+    top: 0; }
+  50% {
+    top: -0.2em; }
+  70% {
+    top: -0.3em; }
+  100% {
+    top: 0; } }
+@keyframes bounce {
+  0% {
+    top: 0; }
+  50% {
+    top: -0.2em; }
+  70% {
+    top: -0.3em; }
+  100% {
+    top: 0; } }
